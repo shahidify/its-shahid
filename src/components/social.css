@@ -1,0 +1,19 @@
+.social {
+  background-color: hsla(0, 0%, 100%, 0.05);
+  border: 1px solid rgba(222, 226, 230, 0.05);
+  border-radius: 100%;
+  margin: 20px;
+  padding: 20px;
+  color: #ced4da;
+  display: inline-block;
+  font-size: 1.2rem;
+  height: 2.5rem;
+  width: 2.5rem;
+  line-height: 2.5rem;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+a {
+  padding: 50px;
+}

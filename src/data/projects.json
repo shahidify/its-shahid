@@ -1,0 +1,30 @@
+[
+  {
+    "name": "CA Technologies",
+    "duration": "Nov 2016 - Present",
+    "type": "front-end",
+    "description": "Senior Software Engineer",
+    "img": "ca.png"
+  },
+  {
+    "name": "Tata Consultancy Services",
+    "duration": "Dec 2011 - Nov 2016",
+    "type": "front-end",
+    "description": "IT Analyst",
+    "img": "tcs.png"
+  },
+  {
+    "name": "Hitachi Consulting",
+    "duration": "Aug 2010 - Nov 2011",
+    "type": "front-end",
+    "description": "Consultant",
+    "img": "hitachi.png"
+  },
+  {
+    "name": "Accenture",
+    "duration": "Jun 2006 - Aug 2009",
+    "type": "front-end",
+    "description": "Software Engineer",
+    "img": "accenture.png"
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Github",
+    "icon": "github",
+    "type": "social-media",
+    "url": "https://github.com/shahidify"
+  },
+  {
+    "name": "Twitter",
+    "icon": "twitter",
+    "type": "social-media",
+    "url": "https://twitter.com/shahidify"
+  },
+  {
+    "name": "Email",
+    "icon": "envelope",
+    "type": "email",
+    "url": "mailto:shahidify@gmail.com"
+  }
+]

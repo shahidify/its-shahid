@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Music",
+    "img": "running.png",
+    "external_url": null
+  },
+  {
+    "name": "Football (Soccer)",
+    "img": "hiking.png",
+    "external_url": null
+  },
+  {
+    "name": "Teaching/Mentoring",
+    "img": "meditating.png",
+    "external_url": null
+  }
+]
