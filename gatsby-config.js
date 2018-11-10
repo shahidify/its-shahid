@@ -14,7 +14,7 @@ module.exports = {
         short_name: `shahidify`,
         start_url: `/`,
         background_color: `#337ab7`,
-        theme_color: `#337ab7`,
+        theme_color: `#00bcd4`,
         display: `fullscreen`,
         icon: `src/static/logo/favicon.png` // This path is relative to the root of the site.
       }
