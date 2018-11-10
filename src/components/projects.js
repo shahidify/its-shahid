@@ -5,7 +5,7 @@ import classNames from "classnames";
 import "./projects.css";
 import projectList from "../data/projects.json";
 
-class Projects extends Component {
+class Experience extends Component {
   constructor(props) {
     super(props);
 
@@ -21,7 +21,7 @@ class Projects extends Component {
         <h2 className="text-center">Experience</h2>
         <div className="section-content">
           <div className="project-list">
-            {projectList.map(project => {
+            {projectList.map((project, index) => {
               const singleCardClass = classNames("single-card", {
                 hide: false
               });
@@ -30,7 +30,7 @@ class Projects extends Component {
               });
               const imageSizes = image.node.childImageSharp.sizes;
               return (
-                <div className={singleCardClass}>
+                <div className={singleCardClass} key={index}>
                   <div className="card-img">
                     <Img
                       title={project.name}
@@ -61,4 +61,4 @@ class Projects extends Component {
   }
 }
 
-export default Projects;
+export default Experience;

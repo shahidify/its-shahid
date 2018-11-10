@@ -65,7 +65,7 @@ class Navigation extends Component {
     return (
       <Navbar className={whiteBackground} fixed={"top"} expand="md">
         <NavbarBrand href="https://www.shahidify.tech/" className={fontColor}>
-          Mohammed Shahid Khan
+          MSK
         </NavbarBrand>
         <NavbarToggler onClick={this.toggleNavbar}>
           <i className={`fa fa-navicon ${fontColor}`} />

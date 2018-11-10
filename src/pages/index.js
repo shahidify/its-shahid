@@ -2,7 +2,7 @@ import React from "react";
 import Cover from "../components/cover";
 import Navigation from "../components/navigation";
 import AboutMe from "../components/about-me";
-import Projects from "../components/projects";
+import Experience from "../components/projects";
 import Education from "../components/education";
 import Footer from "../components/footer";
 import { Helmet } from "react-helmet";
@@ -26,7 +26,7 @@ const HomePage = ({ data }) => {
       <div className="container-fluid main">
         <Navigation />
         <AboutMe profileImg={data.profileImg} />
-        <Projects projectImgs={projectImgData} />
+        <Experience projectImgs={projectImgData} />
         <Education />
         <Footer />
       </div>

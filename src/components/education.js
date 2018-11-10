@@ -5,22 +5,26 @@ import educationList from "../data/education.json";
 const Education = () => {
   return (
     <section id="education" className="section contact">
-      <h2 className="text-center">CONTACT</h2>
+      <h2 className="text-center">EDUCATION</h2>
       <div className="row text-center section-content">
-        {educationList.map(education => (
-          <div className="col-sm-2" key={education.url}>
-            <a
-              href={education.url}
-              target="_blank"
-              title={`External link to my ${education.name} account`}
-              className="btn-social-icon"
-              rel="noopener noreferrer"
-            >
-              <span
-                className={`fa fa-${education.icon}`}
-                alt={`External link to my ${education.name} account`}
-              />
-            </a>
+        {educationList.map((education, index) => (
+          <div className="single-card" key={index}>
+            <div className="card-img">
+              <center>
+                <span className="fa fa-graduation-cap fa-3x center-block" />
+              </center>
+            </div>
+            <div className="blue-divider" />
+            <div className="card-info">
+              <h4 className="card-name">{education.course}</h4>
+              <p>
+                <span>
+                  <strong>{education.institute}</strong>
+                </span>
+                <br />
+                {education.year}
+              </p>
+            </div>
           </div>
         ))}
       </div>

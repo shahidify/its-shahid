@@ -53,6 +53,9 @@
 .card-img {
   height: 50%;
   overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .gatsby-image-outer-wrapper {

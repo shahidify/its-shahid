@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: "Mohammed Shahid Khan || Home",
+    title: "MSK",
     description: "its Shahid ",
     siteUrl: "https://www.shahidify.tech",
     author: "shahidify",
