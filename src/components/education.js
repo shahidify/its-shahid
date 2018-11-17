@@ -4,14 +4,14 @@ import educationList from "../data/education.json";
 
 const Education = () => {
   return (
-    <section id="education" className="section contact">
+    <section id="education" className="section contact section-odd">
       <h2 className="text-center">EDUCATION</h2>
-      <div className="row text-center section-content">
+      <div className="row text-center  edu-card">
         {educationList.map((education, index) => (
           <div className="single-card" key={index}>
-            <div className="card-img">
+            <div className="card-img edu-card-top">
               <center>
-                <span className="fa fa-graduation-cap fa-3x center-block" />
+                <span className="fa fa-graduation-cap fa-5x center-block" />
               </center>
             </div>
             <div className="blue-divider" />

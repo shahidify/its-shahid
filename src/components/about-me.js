@@ -41,7 +41,7 @@ const AboutMe = ({ profileImg }) => {
           </div>
         </div>
       </section>
-      <section id="skills" className="section">
+      <section id="skills" className="section section-odd">
         <h2 className="text-center">Skills</h2>
         <div className="section-content">
           <div className="row">

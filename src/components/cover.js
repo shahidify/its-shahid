@@ -26,7 +26,6 @@ const Cover = ({ coverImg, avatarImg }) => (
           <img src={logo} alt="" style={{ borderRadius: `50%` }} />
         </a>
       </div>
-      <span className="greetings">I am</span>
       <h1 style={{ color: "#00bcd4" }}>
         Mohammed Shahid
         <strong> Khan</strong>
@@ -45,7 +44,7 @@ const Cover = ({ coverImg, avatarImg }) => (
     </div>
     <div className="arrow animated bounceInDown">
       <Scrollchor to="#about" className="btn" animate={{ duration: 500 }}>
-        <i className="fa fa-chevron-down" />
+        <i className="fa fa-chevron-down theme_color" />
       </Scrollchor>
     </div>
   </div>

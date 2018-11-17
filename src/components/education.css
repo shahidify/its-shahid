@@ -9,3 +9,13 @@
 .btn-social-icon {
   font-size: 40px;
 }
+
+.edu-card {
+  display: flex !important;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.edu-card-top {
+  background-color: #00bcd4;
+}
