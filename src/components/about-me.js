@@ -20,12 +20,12 @@ const AboutMe = ({ profileImg }) => {
             <div className="col-12 col-sm-12 col-md-6">
               <p>
                 I am a Full Stack Senior Software Engineer from Austin, TX. I
-                have over 12 years of total IT experience in enterprise web
-                application and portal development. Adept in frontend and
+                have over 14 years of software industry experience mostly developing enterprise web
+                application. Adept in frontend and
                 backend technologies that includes <u>JavaScript</u>, <u>ES6</u>
                 , <u>HTML5/CSS</u>, <u>Node.js</u>, <u>Ruby On Rails</u> and
                 Java. Experience working with various JavaScript frameworks like
-                React.js, Backbone, Google Polymer, Angular 1.x and Node.js;
+                React.js, Redux, Backbone, Google Polymer, Angular 1.x and Node.js;
                 well versed with End to End Software development in an Agile
                 environment
               </p>
