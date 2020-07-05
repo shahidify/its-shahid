@@ -32,7 +32,7 @@ const AboutMe = ({ profileImg }) => {
 
               <p>
                 <strong>When I am not working or learning </strong>, I &hearts;
-                to spend time with my 8 years old daughter and my wife, playing
+                spending time with my toddler and my 10 years old daughters.  Playing
                 football (Soccer) on my Xbox is my favorite night-out activity.
                 My typical weekend includes watching Manchester United and
                 Oklahoma Sooners play.
