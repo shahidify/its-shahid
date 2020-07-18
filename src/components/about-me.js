@@ -54,16 +54,10 @@ const AboutMe = ({ profileImg }) => {
                   <span className="skillset">HTML5</span>
                   <span className="skillset">CSS3</span> <br />
                   <span className="skillset special">React.js</span>
-                  <span className="skillset">Backbone</span>
-                  <span className="skillset special">Polymer</span>
-                  <span className="skillset">Angular 1.x</span>
-                  <span className="skillset special">Bootstrap</span>
-                  <br />
-                  <span className="skillset">Material Design</span>
+                  <span className="skillset">Redux</span>
+                  <span className="skillset special">Material UI</span>
                   <span className="skillset">D3.js</span>
-                  <br />
-                  <span className="skillset">HighCharts</span>
-                  <span className="skillset">GoogleCharts</span>
+                  <span className="skillset special">Bootstrap</span>
                 </p>
               </div>
             </div>
@@ -75,9 +69,6 @@ const AboutMe = ({ profileImg }) => {
                 <span className="skillset special">Ruby on Rails</span> <br />
                 <span className="skillset">Java</span>
                 <span className="skillset special">MySQL</span>
-                <span className="skillset special">MongoDB</span>
-                <span className="skillset">Firebase</span>
-                <span className="skillset">PostGresql</span> <br />
                 <span className="skillset special">GraphQL</span>
                 <span className="skillset">Next.js</span>
               </div>
@@ -86,13 +77,13 @@ const AboutMe = ({ profileImg }) => {
               <div className="box">
                 <h5>Tooling</h5>
                 <span className="skillset">Git/GitHub</span>
+                <span className="skillset">Webpack</span>
                 <span className="skillset">Grunt</span>
-                <span className="skillset">Browserify</span>
-                <span className="skillset">Webpack</span> <br />
+                <br />
                 <span className="skillset">TDD</span>
-                <span className="skillset">Chai</span>
-                <span className="skillset">Jasmine</span>
-                <span className="skillset">Mocha</span>
+                <span className="skillset">Jest</span>
+                <span className="skillset">Enzyme</span>
+                <span className="skillset">Cypress</span>
               </div>
             </div>
           </div>
