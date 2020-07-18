@@ -1,6 +1,6 @@
-import React from "react";
-import "./about-me.css";
-import Img from "gatsby-image";
+import React from 'react';
+import './about-me.css';
+import Img from 'gatsby-image';
 
 const AboutMe = ({ profileImg }) => {
   return (
@@ -20,22 +20,23 @@ const AboutMe = ({ profileImg }) => {
             <div className="col-12 col-sm-12 col-md-6">
               <p>
                 I am a Full Stack Senior Software Engineer from Austin, TX. I
-                have over 14 years of software industry experience mostly developing enterprise web
-                application. Adept in frontend and
-                backend technologies that includes <u>JavaScript</u>, <u>ES6</u>
-                , <u>HTML5/CSS</u>, <u>Node.js</u>, <u>Ruby On Rails</u> and
-                Java. Experience working with various JavaScript frameworks like
-                React.js, Redux, Backbone, Google Polymer, Angular 1.x and Node.js;
-                well versed with End to End Software development in an Agile
+                have over 14 years of software development experience, mostly
+                developing enterprise web application. I love working on
+                Frontend technologies that includes <u>JavaScript</u>,
+                <u>HTML5/CSS</u>, <u>React</u>, <u>Redux</u>, <u>Material UI</u>{' '}
+                to name a few. I also have experience working with back-end
+                technologies like Ruby on Rails, Node.js and Java. (Java is not
+                my love but I have vast experience in Java in the past. 😀) well
+                versed with End to End Software development in an Agile
                 environment
               </p>
 
               <p>
                 <strong>When I am not working or learning </strong>, I &hearts;
-                spending time with my toddler and my 10 years old daughters.  Playing
-                football (Soccer) on my Xbox is my favorite night-out activity.
-                My typical weekend includes watching Manchester United and
-                Oklahoma Sooners play.
+                spending time with my one year old baby girl and my 10 years
+                "big" girl. Playing football (Soccer) on my Xbox is my favorite
+                weekend night activity. My typical weekend includes watching
+                Manchester United and Oklahoma Sooners play.
               </p>
             </div>
           </div>
